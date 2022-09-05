@@ -1,10 +1,15 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
+using Massager_Angular.DAL.Models;
+using Massager_Angular.DAL.DataAccses;
+using Massager_Angular.Infastructure;
 
 namespace Massager_Angular
 {
@@ -20,6 +25,21 @@ namespace Massager_Angular
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddIdentity<UserEntity, RoleEntity>()
+                        .AddEntityFrameworkStores<DataAccsess>();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddDependencies();
+
+            services.AddControllersWithViews();
+
+            services.AddDbContext<DataAccsess>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("Massager_Angular"), b =>
+                    b.MigrationsAssembly("Massager_Angular.DAL")));
+
+
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -50,6 +70,8 @@ namespace Massager_Angular
             }
 
             app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
