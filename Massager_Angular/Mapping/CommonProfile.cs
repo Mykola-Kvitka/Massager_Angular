@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using Massager_Angular.BLL.Models;
-using Massager_Angular.ViewModels;
-using Massager_Angular.DAL.Models;
+using Messager_Angular.BLL.Models;
+using Messager_Angular.DAL.Models;
 using System.Linq.Expressions;
 using System;
+using Messager_Angular.ViewModels;
 
-namespace Massager_Angular.Mapping
+namespace Messager_Angular.Mapping
 {
     public class CommonProfile : Profile
     {

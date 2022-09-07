@@ -1,5 +1,5 @@
-using Massager_Angular.DAL.DataAccses;
-using Massager_Angular.DAL.Models;
+using Messager_Angular.DAL.DataAccses;
+using Messager_Angular.DAL.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using System;
 using System.Threading.Tasks;
 
 
-namespace Massager_Angular
+namespace Messager_Angular
 {
     public class Program
     {

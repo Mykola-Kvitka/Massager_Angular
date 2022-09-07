@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Massager_Angular.Tests;
+using Messager_Angular.Tests;
 
-namespace Massager_Angular.Tests.Mapping
+namespace Messager_Angular.Tests.Mapping
 {
     public static class MapperFactory
     {

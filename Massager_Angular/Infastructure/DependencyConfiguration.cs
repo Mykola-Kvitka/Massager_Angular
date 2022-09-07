@@ -1,17 +1,17 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Massager_Angular.BLL.Interfaces;
-using Massager_Angular.BLL.Models;
-using Massager_Angular.BLL.Services;
-using Massager_Angular.DAL;
-using Massager_Angular.DAL.Interfaces;
-using Massager_Angular.DAL.Models;
-using Massager_Angular.DAL.Repositories;
+using Messager_Angular.BLL.Interfaces;
+using Messager_Angular.BLL.Models;
+using Messager_Angular.BLL.Services;
+using Messager_Angular.DAL;
+using Messager_Angular.DAL.Interfaces;
+using Messager_Angular.DAL.Models;
+using Messager_Angular.DAL.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Massager_Angular.Infastructure
+namespace Messager_Angular.Infastructure
 {
     public static class DependencyConfiguration
     {

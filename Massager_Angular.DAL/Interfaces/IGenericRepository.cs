@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Massager_Angular.DAL.Interfaces
+namespace Messager_Angular.DAL.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {

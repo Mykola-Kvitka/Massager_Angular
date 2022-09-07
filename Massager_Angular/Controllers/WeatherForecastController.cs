@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Massager_Angular.Controllers
+namespace Messager_Angular.Controllers
 {
     [ApiController]
     [Route("[controller]")]

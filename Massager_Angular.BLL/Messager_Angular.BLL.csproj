@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Massager_Angular.DAL\Massager_Angular.DAL.csproj" />
+    <ProjectReference Include="..\Massager_Angular.DAL\Messager_Angular.DAL.csproj" />
   </ItemGroup>
 
 </Project>

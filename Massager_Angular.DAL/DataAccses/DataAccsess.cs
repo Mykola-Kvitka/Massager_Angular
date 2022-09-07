@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
-using Massager_Angular.DAL.Models;
+using Messager_Angular.DAL.Models;
 
-namespace Massager_Angular.DAL.DataAccses
+namespace Messager_Angular.DAL.DataAccses
 {
     public class DataAccsess : IdentityDbContext<UserEntity, RoleEntity, string>
     {

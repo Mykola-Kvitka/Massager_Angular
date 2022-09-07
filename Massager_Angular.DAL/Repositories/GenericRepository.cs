@@ -1,5 +1,5 @@
-﻿using Massager_Angular.DAL.DataAccses;
-using Massager_Angular.DAL.Interfaces;
+﻿using Messager_Angular.DAL.DataAccses;
+using Messager_Angular.DAL.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Massager_Angular.DAL.Repositories
+namespace Messager_Angular.DAL.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Massager_Angular.DAL.Models
+namespace Messager_Angular.DAL.Models
 {
     public class ChatsEntity
     {

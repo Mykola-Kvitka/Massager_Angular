@@ -7,11 +7,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using Massager_Angular.DAL.Models;
-using Massager_Angular.DAL.DataAccses;
-using Massager_Angular.Infastructure;
+using Messager_Angular.DAL.Models;
+using Messager_Angular.DAL.DataAccses;
+using Messager_Angular.Infastructure;
 
-namespace Massager_Angular
+namespace Messager_Angular
 {
     public class Startup
     {

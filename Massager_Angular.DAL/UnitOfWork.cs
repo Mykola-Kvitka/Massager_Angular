@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Massager_Angular.DAL.DataAccses;
-using Massager_Angular.DAL.Interfaces;
-using Massager_Angular.DAL.Models;
-using Massager_Angular.DAL.Repositories;
+using Messager_Angular.DAL.DataAccses;
+using Messager_Angular.DAL.Interfaces;
+using Messager_Angular.DAL.Models;
+using Messager_Angular.DAL.Repositories;
 
-namespace Massager_Angular.DAL
+namespace Messager_Angular.DAL
 {
     public class UnitOfWork : IUnitOfWork
     {

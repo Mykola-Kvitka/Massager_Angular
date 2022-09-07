@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Massager_Angular.DAL.Models;
+using Messager_Angular.DAL.Models;
 
-namespace Massager_Angular.DAL.Interfaces
+namespace Messager_Angular.DAL.Interfaces
 {
     public interface IUnitOfWork
     {

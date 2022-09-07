@@ -1,6 +1,6 @@
 using System;
 
-namespace Massager_Angular
+namespace Messager_Angular
 {
     public class WeatherForecast
     {

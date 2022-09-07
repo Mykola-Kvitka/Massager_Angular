@@ -1,4 +1,4 @@
-﻿using Massager_Angular.DAL.Models;
+﻿using Messager_Angular.DAL.Models;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Massager_Angular.DAL.DataAccses
+namespace Messager_Angular.DAL.DataAccses
 {
     public static class RoleInitializer
     {

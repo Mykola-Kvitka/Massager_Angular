@@ -1,15 +1,15 @@
 using AutoFixture;
 using NSubstitute;
-using Massager_Angular.BLL.Interfaces;
-using Massager_Angular.BLL.Services;
-using Massager_Angular.DAL.Interfaces;
-using Massager_Angular.DAL.Models;
-using Massager_Angular.Tests.Mapping;
+using Messager_Angular.BLL.Interfaces;
+using Messager_Angular.BLL.Services;
+using Messager_Angular.DAL.Interfaces;
+using Messager_Angular.DAL.Models;
+using Messager_Angular.Tests.Mapping;
 using System;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Massager_Angular.Tests
+namespace Messager_Angular.Tests
 {
     public class MassageServiceTests
     {

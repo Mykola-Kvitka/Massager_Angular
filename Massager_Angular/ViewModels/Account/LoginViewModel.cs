@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Massager_Angular.ViewModels
+namespace Messager_Angular.ViewModels
 {
     public class LoginViewModel
     {
